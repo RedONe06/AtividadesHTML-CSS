@@ -1,0 +1,2 @@
+display é setado como block (um em baixo do outro)
+display flex alinha um do lado do outro

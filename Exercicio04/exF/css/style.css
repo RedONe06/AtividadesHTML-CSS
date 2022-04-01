@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+#inputComentario{
+    overflow: scroll    ;
+    height: 50px;
+}

@@ -1,0 +1,31 @@
+*{
+    font-family: Cambria;
+}
+
+.tabela{
+    border: 2px solid red;
+    border-collapse: collapse;
+    padding: 70px;
+}
+
+.y{
+    color: white;
+    background-color: grey;
+    border: 2px solid grey;
+    padding: 5px;
+} 
+
+.cabecalho{
+    color: white;
+    background-color: grey;
+    border: 2px solid grey;
+    width: 90px;
+}
+.tabela td{
+    width: 100px;
+    border: 2px solid grey;
+}
+
+
+
+

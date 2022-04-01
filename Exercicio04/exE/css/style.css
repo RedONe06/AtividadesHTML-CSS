@@ -1,0 +1,47 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.containerGlobal{
+    border: 1px solid black;
+    margin: 20%;
+    padding: 10px;
+    width: 600px;
+    box-shadow: 5px 5px 20px black;
+}
+
+.titulo{
+    font-size: medium;
+    font-weight: 700;
+    color: rgb(35, 35, 156);
+}
+
+label{
+    font-size: small;
+    font-weight: 700;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+}
+
+.fax{
+    margin-left: 50px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: flex-end;
+}

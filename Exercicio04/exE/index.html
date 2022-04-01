@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExE - HTML</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="containerGlobal">
+        <form>
+            <p class="titulo">Adicionar um endereço</p>
+
+            <hr>
+
+            <div class="column">
+                <div class="input">
+                    <label for="inputNome">Nome Completo<br>
+                        <input type="text" name="inputNome" placeholder="Insira o nome"></label>
+                </div>
+                <div class="input">
+                    <label for="inputEmpresa">Nome da empresa<br>
+                        <input type="text" name="inputEmpresa"></label>
+                </div>
+                <div class="input">
+                    <label for="inputEndereco">Linha de endereço 1<br>
+                        <input type="text" name="inputEndereco"></label>
+                </div>
+                <div class="input">
+                    <label for="inputEndereco2">Linha de endereço 2<br>
+                        <input type="text" name="inputEndereco2"></label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input">
+                    <label for="inputCidade">Cidade<br>
+                        <input type="text" name="inputCidade"></label>
+                </div>
+                <div class="input">
+                    <label for="inputEstado">Estado<br>
+                        <input type="text" name="inputEstado"></label>
+                </div>
+                <div class="input">
+                    <label for="inputPostal">Código Postal<br>
+                        <input type="text" name="inputPostal" onkeypress="$(this).mask('00.000-000')"></label>
+                </div>
+            </div>
+
+            <div class="column">
+                <label for="">País<br>
+                    <select name="selectPais">
+                        <option value="País de Gales">País de Gales</option>
+                        <option value="Países Baixos">Países Baixos</option>
+                        <option value="Peru">Peru</option>
+                    </select></label>
+            </div>
+
+            <div class="row2">
+                <div class="input">
+                    <label for="inputTelefone">Telefone<br>
+                        <input type="tel" name="inputTelefone" onkeypress="$(this).mask('(00) 00000-0009')"></label>
+                </div>
+                <div class="input">
+                    <label for="inputFax" class="fax">FAX<br>
+                        <input type="text" name="inputFax" class="fax"></label>
+                </div>
+            </div>
+
+            <div class="column">
+                <label for="inputEmail">E-mail<br>
+                    <input type="email" name="inputEmail"></label>
+            </div>
+
+            <hr>
+
+            <div class="botoes">
+                <input type="submit" value="Ok">
+                <input type="reset" value="Cancelar">
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+</body>
+
+</html>

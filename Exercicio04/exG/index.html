@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ExF - HTML</title>
+
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <header>
+                <h1 class="titulo">SISTEMA DE GESTÃO ACADÊMICA</h1>
+            </header>
+
+            <h2 class="subtitulo">MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h2>
+            
+            <form>
+                <table>
+                    <tr>
+                        <th>Login</th>
+                        <td><input type="email" name="inputEmail" class="input"></td>
+                    </tr>
+                    <tr>
+                        <th>Senha</th>
+                        <td><input type="password" name="inputPassword" class="input"></td>
+                    </tr>
+                    <tr>
+                        <th>Status</th>
+                        <td>
+                            <select name="select">
+                                <option value="inativo">Inativo</option checkbox>
+                                <option value="ativo">Ativo</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Tipo</th>
+                        <td>
+                            <input type="radio" name="inputRadio" id="tecnico" value="Técnico"><label for="tecnico">
+                                Técnico</label>
+                            <input type="radio" name="inputRadio" id="professor" value="Professor"><label
+                                for="professor">
+                                Professor</label>
+                            <input type="radio" name="inputRadio" id="aluno" value="Aluno"><label for="aluno">
+                                Aluno</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Data Criação</th>
+                        <td>
+                            <input type="date" name="inputDate">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Perfil</th>
+                        <td>
+                            <input type="radio" name="inputRadio" value="convidado" id="Convidado"><label
+                                for="Convidado">
+                                Convidado</label>
+                            <input type="radio" name="inputRadio" value="administrador" id="Administrador"><label
+                                for="Administrador"> Administrador</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Observações</th>
+                        <td>
+                            <textarea name="txtArea" cols="30" rows="10"
+                                placeholder="Escreva sua observação"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Módulos</th>
+                        <td>
+                            <input type="checkbox" name="Compras" value="compras" id="compras"><label
+                                for="compras">Compras</label>
+                            <input type="checkbox" name="Bibliotecas" value="Bibliotecas" id="bibliotecas"><label
+                                for="bibliotecas"> Bibliotecas</label>
+                            <input type="checkbox" name="Acadêmico" value="Acadêmico" id="academico"><label
+                                for="academico">
+                                Acadêmico</label><br>
+                            <input type="checkbox" name="Documentação" value="Documentação" id="documentacao"><label
+                                for="documentacao"> Documentação</label>
+                            <input type="checkbox" name="Recursos" value="Recursos Humanos" id="recursos"><label
+                                for="recursos">
+                                Recursos Humanos</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td id="botoes">
+                            <input type="submit" value="Cadastrar">
+                            <input type="reset" value="Excluir">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+        </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
